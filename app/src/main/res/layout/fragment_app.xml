@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".web">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="289dp"
+        android:layout_height="132dp"
+        android:fontFamily="@font/aclonica"
+        android:text="REDIGIERE A UNA APK"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.663"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <Button
+        android:id="@+id/Rediriguir"
+        android:layout_width="172dp"
+        android:layout_height="43dp"
+        android:text="YOUTUBE"
+        android:textColor="@color/black"
+        app:backgroundTint="@android:color/holo_orange_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.767" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="331dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginBottom="88dp"
+        android:src="@drawable/apk"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="162dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="85dp"
+        android:text="WATHSAPP"
+        app:backgroundTint="@android:color/holo_orange_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+</androidx.constraintlayout.widget.ConstraintLayout>

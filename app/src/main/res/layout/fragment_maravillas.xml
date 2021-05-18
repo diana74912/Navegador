@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maravillas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C02909">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="MaraVillas Modernas"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="7 NUEVAS MARAVILLAS DEL MUNDO"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:gravity="left"
+                android:text="                  CRISTO REDENTOR"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="149dp"
+                android:layout_height="134dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cristo" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="159dp"
+                android:fontFamily="@font/font1"
+                android:gravity="center"
+                android:text="El Cristo Redentor o Cristo del Corcovado es una estatua art déco de Jesús de Nazaret con los brazos abiertos mostrando a la ciudad de Río de Janeiro, Brasil.  La estatua tiene una altura de 30.1 metros sobre un pedestal de 8 metros.1​ Este monumento fue inaugurado el 12 de octubre de 1931, después de aproximadamente cinco años de construcción."
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:gravity="left"
+                android:text="                            PETRA"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="211dp"
+                android:layout_height="155dp"
+                android:layout_gravity="center"
+                android:src="@drawable/petra" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="121dp"
+                android:fontFamily="@font/font1"
+                android:gravity="center"
+                android:text="Petra (en griego antiguo, Πέτρα, en árabe, البتراء al-Batrā´) es un importante enclave arqueológico en Jordania, y la capital del antiguo reino nabateo, cuyos pobladores la llamaban Raqmu (en árabe nabateo, الرقيم).1​ El nombre de Petra proviene del griego πέτρα que significa piedra."
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:gravity="left"
+                android:text="                    MACHU PICCHU"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="211dp"
+                android:layout_height="136dp"
+                android:layout_gravity="center"
+                android:src="@drawable/machu" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font1"
+                android:gravity="center"
+                android:text="Machu Picchu (pronunciado /mɑtchu ˈpiktchu/ en quechua, «Monte viejo») es el nombre contemporáneo que se da a una llacta —antiguo poblado incaico andino— construida antes del siglo xv, ubicada en la Cordillera Oriental del sur de Perú, en la cadena montañosa de Los Andes a 2430 metros sobre el nivel del mar. Está ubicada en la región Cusco, provincia de Urubamba, distrito de Machupicchu, sobre el Valle Sagrado de los Incas, a 80 kilómetros al noroeste de la ciudad de Cusco, ciudad del Perú y por donde fluye el río Urubamba, río que atraviesa la cordillera y origina un cañón con clima de montaña tropical. Según muchos estudiosos su nombre original habría sido Llaqtapata."
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:gravity="left"
+                android:text="                 COLIZEO DE ROMA"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="211dp"
+                android:layout_height="119dp"
+                android:layout_gravity="center"
+                android:src="@drawable/roma" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font1"
+                android:gravity="center"
+                android:text="El Coliseo o Anfiteatro Flavio (en latín Colosseum, en italiano Colosseo)1​ es un anfiteatro de la época del Imperio romano, construido en el siglo I. Está ubicado en el este del Foro Romano, y fue el más grande de los que se construyeron en el Imperio romano. Conocido originalmente como Anfiteatro Flavio (Amphitheatrum Flavium) pasa a ser llamado Coliseo (Colosseum) porque a su lado había una gran estatua, el Coloso de Nerón,2​ un monumento dedicado al emperador Nerón que posteriormente sufrió transformaciones y llegó a desaparecer."
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:gravity="left"
+                android:text="                      CHICHE  ITZA"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/itza" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font1"
+                android:gravity="center"
+                android:text="Chichén Itzá es un complejo de ruinas mayas famoso a nivel mundial en la península de Yucatán de México. Una enorme pirámide escalonada, conocida como El Castillo, domina los 6.5 km cuadrados de la ciudad antigua, que prosperó desde aproximadamente el año 600 d.C. hasta el siglo XIII. Los tallados gráficos en piedra sobreviven en estructuras como el campo de pelota, el Templo de los Guerreros y el Muro de las Calaveras."
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:gravity="left"
+                android:text="                        TAJ MAHAL "
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="211dp"
+                android:layout_height="129dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mahal" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/font1"
+                android:text="El Taj Mahal (hindi: ताज महल Tāj Mahal, urdu: تاج محل Tāŷ Mahal 'Corona de los palacios'; /tɑːʒ mə'hɑl/)1​2​ es un monumento funerario construido entre 1631 y 1654 en la ciudad de Agra, estado de Uttar Pradesh (India), a orillas del río Yamuna, por el emperador musulmán Shah Jahan de la dinastía mogol. El imponente conjunto de edificios se erigió en honor de su esposa favorita, Arjumand Banu Begum —más conocida como Mumtaz Mahal— que murió en el parto de su decimocuarto hijo. Se estima que en su construcción trabajaron unos 20 000 obreros bajo dirección de un conjunto de arquitectos liderados por el arquitecto de la corte, Ustad Ahmad Lahori."
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:gravity="left"
+                android:text="            GRAN MURALLA CHINA"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/china" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/font1"
+                android:text="Por último, La Gran Muralla china es una antigua fortificación china,1​ construida y reconstruida entre el siglo v a. C. y el siglo xvi para proteger la frontera norte del Imperio chino durante las sucesivas dinastías imperiales de los ataques de los nómadas xiongnu de Mongolia y Manchuria.Contando sus ramificaciones y construcciones secundarias, se calcula que tiene unos 21 200 km de longitud,2​ desde la frontera con Corea, al borde del río Yalu, hasta el desierto de Gobi, a lo largo de un arco que delinea aproximadamente el borde sur de Mongolia Interior, aunque hoy solo se conserva un 30 % de ella.3​En promedio, mide de 6 a 7 m de alto y de 4 a 5 m de ancho."
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
